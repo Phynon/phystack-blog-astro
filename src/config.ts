@@ -7,9 +7,9 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Fuwari',
-  subtitle: 'Demo Site',
-  lang: 'en',
+  title: '证物箱',
+  subtitle: 'Evidence Container',
+  lang: 'zh_CN',
   themeHue: 250,
   banner: {
     enable: false,
@@ -30,17 +30,19 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Archive,
     LinkPreset.About,
     {
-      name: 'GitHub',
-      url: 'https://github.com/saicaca/fuwari',
-      external: true,
+      name: '要点别的？',
+      url: 'https://phystack.top',
+      external: false,
     },
   ],
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  avatar: 'assets/images/kaze.png',
+  name: 'Phynon',
+  //bio: 'えなかったサヨナラだっていつしか\n花のように僕らを彩ってゆけたらいいと',
+  bio: `手を伸ばしたら  届いたはずの<br>
+        思い出たちも巣に帰る`,
   links: [
     {
       name: 'Twitter',
@@ -50,18 +52,18 @@ export const profileConfig: ProfileConfig = {
     {
       name: 'Steam',
       icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      url: 'https://steamcommunity.com/id/hiltongreenland/',
     },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/Phynon',
     },
   ],
 }
 
 export const licenseConfig: LicenseConfig = {
-  enable: true,
+  enable: false,
   name: 'CC BY-NC-SA 4.0',
   url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
 }
